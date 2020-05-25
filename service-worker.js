@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mockAdminPanel/precache-manifest.712d5e0763165b51c8ad743af1a204e3.js"
+  "/mockAdminPanel/precache-manifest.1f3c242b2e642194d51b6919bf03ecd0.js"
 );
 
 self.addEventListener('message', (event) => {
