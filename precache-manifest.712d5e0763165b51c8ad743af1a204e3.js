@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c68dcac5870dac2b8ece702a7ecf76b3",
+    "revision": "9578d0982fa1efac8a8452ad7bdae186",
     "url": "/mockAdminPanel/index.html"
   },
   {
-    "revision": "e9844a3006017d10cd24",
+    "revision": "07fef62a96831e8b3ad6",
     "url": "/mockAdminPanel/static/css/main.9aece84c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mockAdminPanel/static/js/2.92f5c9d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9844a3006017d10cd24",
-    "url": "/mockAdminPanel/static/js/main.300b3a04.chunk.js"
+    "revision": "07fef62a96831e8b3ad6",
+    "url": "/mockAdminPanel/static/js/main.abfde6c0.chunk.js"
   },
   {
     "revision": "1e6d7957fc083391478e",
