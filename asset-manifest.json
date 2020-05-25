@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mockAdminPanel/static/css/main.9aece84c.chunk.css",
-    "main.js": "/mockAdminPanel/static/js/main.6fe6865f.chunk.js",
-    "main.js.map": "/mockAdminPanel/static/js/main.6fe6865f.chunk.js.map",
+    "main.js": "/mockAdminPanel/static/js/main.65e3ca2b.chunk.js",
+    "main.js.map": "/mockAdminPanel/static/js/main.65e3ca2b.chunk.js.map",
     "runtime-main.js": "/mockAdminPanel/static/js/runtime-main.17d582e8.js",
     "runtime-main.js.map": "/mockAdminPanel/static/js/runtime-main.17d582e8.js.map",
     "static/js/2.92f5c9d6.chunk.js": "/mockAdminPanel/static/js/2.92f5c9d6.chunk.js",
     "static/js/2.92f5c9d6.chunk.js.map": "/mockAdminPanel/static/js/2.92f5c9d6.chunk.js.map",
     "index.html": "/mockAdminPanel/index.html",
-    "precache-manifest.1f3c242b2e642194d51b6919bf03ecd0.js": "/mockAdminPanel/precache-manifest.1f3c242b2e642194d51b6919bf03ecd0.js",
+    "precache-manifest.fb243508dc26ab80ee7f776ab6349173.js": "/mockAdminPanel/precache-manifest.fb243508dc26ab80ee7f776ab6349173.js",
     "service-worker.js": "/mockAdminPanel/service-worker.js",
     "static/css/main.9aece84c.chunk.css.map": "/mockAdminPanel/static/css/main.9aece84c.chunk.css.map",
     "static/js/2.92f5c9d6.chunk.js.LICENSE.txt": "/mockAdminPanel/static/js/2.92f5c9d6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.17d582e8.js",
     "static/js/2.92f5c9d6.chunk.js",
     "static/css/main.9aece84c.chunk.css",
-    "static/js/main.6fe6865f.chunk.js"
+    "static/js/main.65e3ca2b.chunk.js"
   ]
 }
