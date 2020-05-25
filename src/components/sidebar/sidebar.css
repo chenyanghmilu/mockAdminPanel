@@ -1,0 +1,10 @@
+.signout {
+	margin-left: 3VW;
+	font-weight: bolder;
+	font-size: large;
+	cursor: pointer;
+}
+
+.signout :hover {
+	background-color: aqua;
+}

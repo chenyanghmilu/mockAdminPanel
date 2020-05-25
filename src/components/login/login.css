@@ -1,0 +1,84 @@
+body {
+	font-family: "Open Sans Condensed";
+	padding: 20px 60px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.sign-in {
+	width: 380px;
+	display: flex;
+	flex-direction: column;
+	margin: 10vh 19vw;
+	text-align: center;
+}
+
+.title {
+	margin: 10px 0;
+}
+
+.button {
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttonSignIn {
+	min-width: 165px;
+	width: auto;
+	height: 50px;
+	letter-spacing: 0.5px;
+	line-height: 50px;
+	padding: 0 35px 0 35px;
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Open Sans Condensed";
+	font-weight: bolder;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+}
+
+.buttons:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+.google-sign-in {
+	text-transform: uppercase;
+	background-color: #4285f4;
+	color: white;
+}
+
+.google-sign-in:hover {
+	background-color: #357ae8;
+	border: none;
+}
+
+input {
+	background: none;
+	background-color: white;
+	color: grey;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid grey;
+	margin: 25px 0;
+}
+
+input:focus {
+	outline: none;
+}
