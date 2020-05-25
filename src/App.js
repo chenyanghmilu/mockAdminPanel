@@ -49,7 +49,7 @@ class App extends Component {
         <Sidebar currentUser={this.state.currentUser} />
         <MainPenel />
         <Switch>
-          <Route exact path='/' component={SignIn} />
+          <Route exact path='/login' component={SignIn} />
         </Switch>
       </div>
     );
