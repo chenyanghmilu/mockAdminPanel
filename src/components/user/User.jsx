@@ -1,7 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
+import firebase from "../../firebase/firebase";
 
-const User = (props) => {
+const User = () => {
+  var user = firebase.auth().currentUser;
+  var email;
+
+  if (user != null) {
+    email = user.email;
+  }
   return (
     <div className="content">
       <div className="container-fluid">
@@ -15,9 +22,7 @@ const User = (props) => {
               </div>
               <div className="card-body">
                 <h6 className="card-category text-gray">Email:</h6>
-                <p className="card-description">
-                  {props.currentUser || `cy@example.com`}
-                </p>
+                <p className="card-description">{email}</p>
                 <Link to="/javascript:;" className="btn btn-primary btn-round">
                   Follow
                 </Link>

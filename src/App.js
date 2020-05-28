@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 
 import MainPenel from './components/mainPanel/MainPenel';
 import SignIn from './pages/sign-in/Sign-in';
-import User from './components/user/User'
 import { auth, createUserProfileDocument } from './firebase//firebase'
 import Sidebar from './components/sidebar/Sidebar';
 
@@ -49,7 +48,7 @@ class App extends Component {
         <Sidebar currentUser={this.state.currentUser} />
         <MainPenel />
         <Switch>
-          <Route path='/login' component={SignIn} />
+          <Route exact path='/' component={SignIn} />
         </Switch>
       </div>
     );
