@@ -66,3 +66,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+create a mock admin panel for Etherium using the theme pack below. Use as much of the template as possible to save time.
+Total task: 2 Screens & firebase integration.
+https://www.creative-tim.com/product/material-dashboard-react
+
+Create a mock page with a tableview of 3 Etherium transactions as main page (UI elements only, does not need to function)
+Sample page from another site here: https://etherscan.io/txs
+Create a profile page that shows only the user's current email. ( Must call firebase to get user email )
+Integrate firebase email password login with the default login page ( no need to change ui, only login must function )
+Sidebar should contain 3 buttons. 1 navigates to the etherium transactions, 1 navigates to profile page, 1 functional logout button
+Be sure only the login page can be shown for unauthenticated users.
